@@ -1,18 +1,31 @@
 {
-  "name": "chatapp",
+  "name": "chat-app",
   "version": "1.0.0",
-  "description": "",
-  "license": "ISC",
-  "author": "",
-  "type": "commonjs",
-  "main": "index.js",
+  "main": "server/index.js",
   "scripts": {
-    "dev": "nodemon server.js"
+    "start": "nodemon server/index.js"
   },
   "dependencies": {
-    "socket.io": "^4.8.1"
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^4.21.2",
+    "mongoose": "^8.17.0",
+    "socket.io": "^4.7.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
-  }
+  },
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhdnihaal1/Noob-chat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mhdnihaal1/Noob-chat/issues"
+  },
+  "homepage": "https://github.com/mhdnihaal1/Noob-chat#readme"
 }
