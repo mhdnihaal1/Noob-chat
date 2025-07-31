@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const socket = io("http://localhost:3000");
+    const socket = io("https://noob-chat-1.onrender.com");
 
     const messageForm = document.getElementById("send-container");
     const messageInput = document.getElementById("message-input");
